@@ -1,1 +1,11 @@
-# gereki
+pip install django
+.\venv\Scripts\activate.bat
+django-admin startproject kok
+python manage.py startapp
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+------------HATA ALDIKTAN SONRA YADA DÜZENLEMEDEN SONRA --------
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
